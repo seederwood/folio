@@ -1,11 +1,11 @@
 .main{
-  font-family: 'ABeeZee', sans-serif;
+  position: relative;
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .spacer{
@@ -21,42 +21,45 @@
 }
 
 .block, .block2{
-  background: rgba(0,0,0,.7);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+
   color: white;
   border-radius: 15px;
-  padding: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  background: rgba(0,0,0,.7);
   box-shadow: 0 0 10px black;
 
 }
 
 .block p {
-  padding: 5%;
   margin-top: 15px;
+  padding: 5%;
+
   font-size: 1.9em;
 }
 
-.block h1, .block2 h1{
+block .bigHead{
   font-size: 3.4em;
 }
 
 h1 img, .card img{
-  border-radius: 10%;
   width: 300px;
   height: 300px;
-  margin-left:auto;
   margin-right:auto;
+  margin-left:auto;
+
+  border-radius: 10%;
   box-shadow: 0 0 10px black;
   }
 
 .card{
   width: 300px;
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 
-p.card-text{
+.card-text{
   font-size: 1.0em;
 }
 
@@ -76,11 +79,11 @@ p.card-text{
   color: rgb(0,127,178);
 }
 
-a.email{
-  margin: auto;
+.email{
   display: block;
   width: 37.5%;
-  padding: 4%;
+  margin: auto;
+
 }
 
 @media (max-width: 768px) {
@@ -90,19 +93,23 @@ a.email{
 }
 
 a.btn{
-  box-shadow: 0 0 10px black;
   padding: 5%;
+
+  box-shadow: 0 0 10px black;
 }
 
 footer{
-  background-color: black;
   position: absolute;
+  z-index: 2;
   bottom: 0;
+
   width: 100%;
   height: 60px;
-  z-index: 2;
-  color: white;
+
   text-decoration: none;
+
+  color: white;
+  background-color: black;
 }
 
 footer h4 a{
@@ -115,5 +122,6 @@ footer h4 a:hover{
 
 footer p{
   margin-top: 5px;
+
   font-size: 11px;
 }
