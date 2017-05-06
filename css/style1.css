@@ -1,4 +1,4 @@
-.main{
+body {
   position: relative;
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8,119 +8,157 @@
   font-family: "ABeeZee", sans-serif;
 }
 
-.spacer{
+nav{
+
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: ABeeZee;
+}
+
+.navbar-header>a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-header>a:hover {
+  text-decoration: none;
+  color: #04A3ED;
+}
+
+.nav-3 {
+  background: #000000;
+}
+
+.link-3 {
+  margin: 0 20px;
+  padding: 20px 0;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: #ffffff;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  background: #000000;
+  font-size: 20px;
+}
+
+.link-3:hover, .link-3:focus {
+  padding: 6px 0;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.spacer {
   padding: 5%;
 }
 
-.block{
+.block {
   width: 75%;
 }
 
-.block2{
+.block2 {
   width: 45%;
 }
 
-.block, .block2{
+.block, .block2 {
   margin-right: auto;
   margin-left: auto;
   padding: 50px;
-
   color: white;
   border-radius: 15px;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, .7);
   box-shadow: 0 0 10px black;
-
+  font-family: ABeeZee;
 }
 
 .block p {
   margin-top: 15px;
   padding: 5%;
-
   font-size: 1.9em;
 }
 
-block .bigHead{
-  font-size: 3.4em;
-}
-
-h1 img, .card img{
+h1 img, .card img {
   width: 300px;
   height: 300px;
-  margin-right:auto;
-  margin-left:auto;
-
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 10%;
   box-shadow: 0 0 10px black;
-  }
+}
 
-.card{
+.card {
   width: 300px;
   margin: auto;
   text-align: center;
 }
 
-.card-text{
+.card-text {
   font-size: 1.0em;
 }
 
-.card-block h4, .card-block p{
+.card-block {
   text-align: center;
 }
 
-.ghub{
-  color: rgb(102,43,129);
+.ghub {
+  color: rgb(102, 43, 129);
 }
 
-.fbook{
-  color: rgb(50,89,163);
+.fbook {
+  color: rgb(50, 89, 163);
 }
 
-.linkedin{
-  color: rgb(0,127,178);
-}
-
-.email{
-  display: block;
-  width: 37.5%;
-  margin: auto;
+.linkedin {
+  color: rgb(0, 127, 178);
 }
 
 @media (max-width: 768px) {
-    .btn,.btn-group {
-        width:100%;
-    }
+  .btn, .btn-group {
+    width: 75%;
+  }
 }
 
-a.btn{
+a.btn {
   padding: 5%;
-
   box-shadow: 0 0 10px black;
 }
 
-footer{
+footer {
   position: absolute;
   z-index: 2;
-  bottom: 0;
-
   width: 100%;
   height: 60px;
-
   text-decoration: none;
-
   color: white;
   background-color: black;
+  left: 0;
+  text-align: center;
+
 }
 
-footer h4 a{
+footer .branca{
   color: white;
 }
 
-footer h4 a:hover{
- text-decoration: none;
+footer .branca>a:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-footer p{
+footer p {
   margin-top: 5px;
-
   font-size: 11px;
+}
+
+.col-center-block {
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
 }

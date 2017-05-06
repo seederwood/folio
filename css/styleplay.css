@@ -1,0 +1,55 @@
+body {
+  position: relative;
+  margin: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "ABeeZee", sans-serif;
+}
+
+nav {
+
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: ABeeZee;
+}
+
+.navbar-header>a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-header>a:hover {
+  text-decoration: none;
+  color: #04A3ED;
+}
+
+#nav-3 {
+  background: #EEA200;
+}
+
+.link-3 {
+  margin: 0 20px;
+  padding: 20px 0;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: #ffffff;
+  border-top: 4px solid #EEA200;
+  border-bottom: 4px solid #EEA200;
+  background: #EEA200;
+  font-size: 20px;
+}
+
+.link-3:hover {
+  padding: 6px 0;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+}
